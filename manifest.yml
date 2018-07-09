@@ -1,0 +1,7 @@
+---
+applications:
+- name: SpringRest
+  memory: 1024M
+  path: build/libs/demo-all-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  timeout: 60
